@@ -8,3 +8,19 @@ query Characters($page: Int){
     }
 }
 
+query Character($id:ID!){
+    character(id: $id){
+        id
+        name
+        image
+        status
+        species
+        gender
+        origin{
+            name
+        }
+        location{
+            name
+        }
+    }
+}

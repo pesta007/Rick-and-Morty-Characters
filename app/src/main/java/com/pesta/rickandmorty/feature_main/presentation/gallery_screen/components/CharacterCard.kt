@@ -27,7 +27,7 @@ import com.pesta.rickandmorty.ui.theme.RickAndMortyTheme
 fun CharacterCard(
     name: String,
     imageUrl: String,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     Column(
         modifier = modifier
